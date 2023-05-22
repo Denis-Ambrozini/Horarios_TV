@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background: url(imagens/senai3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    width: 20%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(145deg, rgb(2 0 36 / 95%) 2%, rgb(63 9 121 / 95%) 44%, rgb(0 212 255 / 95%) 100%);
+    border-radius: 10%;
+}
+
+span {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    height: 10%;
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+}
+
+button {
+    height: 10%;
+    width: 80%;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    height: 30%;
+}
